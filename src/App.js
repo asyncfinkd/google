@@ -1,10 +1,10 @@
 import React from "react";
-import SearchNavbar from "./components/search/SearchNavbar";
+import Hero from "./components/search/Hero";
 
 function App() {
   return (
     <>
-      <SearchNavbar />
+      <Hero />
     </>
   );
 }
