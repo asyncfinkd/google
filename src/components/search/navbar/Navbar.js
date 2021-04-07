@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
     <>
       <div class="o3j99 n1xJcf Ne6nSd">
@@ -26,7 +26,7 @@ export default function Navbar() {
                       href="https://www.google.ge/imghp?hl=en&amp;ogbl"
                       target="_top"
                     >
-                      Images
+                      {props.language ? "სურათები" : "Images"}
                     </a>
                   </div>
                 </div>
@@ -53,7 +53,7 @@ export default function Navbar() {
                   href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/&amp;ec=GAZAmgQ"
                   target="_top"
                 >
-                  Sign in
+                  {props.language ? "შესვლა" : "Sign in"}
                 </a>
               </div>
             </div>

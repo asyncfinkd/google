@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import Footer from "./footer/Footer";
 import Navbar from "./navbar/Navbar";
 
-export default function SearchNavbar() {
+export default function SearchNavbar(props) {
   const [search, setSearch] = useState("");
   return (
     <>
       <main className="_main">
         <div class="L3eUgb">
-          <Navbar />
+          <Navbar language={props.language} />
           <div class="o3j99 LLD4me yr19Zb LS8OJ">
             <div class="k1zIA rSk4se">
               <img
@@ -35,17 +35,11 @@ export default function SearchNavbar() {
                 e.preventDefault();
               }}
             >
-              <div jsmodel="vWNDde" jsdata="MuIEvd;_;CoLw3E">
-                <div
-                  jscontroller="mvYTse"
-                  jsmodel="TMlYFc"
-                  class="A8SBwf"
-                  jsdata="LVplcb;_;"
-                  jsaction="lX6RWd:w3Wsmc;DkpM0b:d3sQLd;IQOavd:dFyQEf;XzZZPe:jI3wzf;Aghsf:AVsnlb;iHd9U:Q7Cnrc;f5hEHe:G0jgYd;vmxUb:j3bJnb;R2c5O:LuRugf;R3Yrj:DURTdb;qiCkJd:ANdidc;NOg9L:HLgh3;uGoIkd:epUokb;zLdLw:eaGBS;rcuQ6b:npT2md"
-                >
-                  <div class="RNNXgb" jsname="RNNXgb">
+              <div jsmodel="vWNDde">
+                <div class="A8SBwf">
+                  <div class="RNNXgb">
                     <div class="SDkEP">
-                      <div class="iblpc" jsname="uFMOof">
+                      <div class="iblpc">
                         <div class="hsuHs">
                           <span class="wFncld z1asCe MZy1Rb">
                             <svg
@@ -58,16 +52,10 @@ export default function SearchNavbar() {
                           </span>
                         </div>
                       </div>
-                      <div
-                        jscontroller="iDPoPb"
-                        class="a4bIc"
-                        jsname="gLFyf"
-                        jsaction="h5M12e;input:d3sQLd;blur:jI3wzf"
-                      >
+                      <div class="a4bIc">
                         <div class="pR49Ae gsfi" jsname="vdLsw"></div>
                         <input
                           class="gLFyf gsfi"
-                          jsaction="paste:puy29d;"
                           maxlength="2048"
                           name="q"
                           type="text"
@@ -87,13 +75,9 @@ export default function SearchNavbar() {
                       </div>
                       <div class="dRYYxd">
                         <div
-                          jscontroller="J5Ptqf"
                           class="clear-button"
-                          jsname="RP0xob"
                           aria-label="Clear"
                           role="button"
-                          jsaction="AVsnlb;rcuQ6b:npT2md"
-                          data-ved="0ahUKEwi2_e65iuzvAhUBrxoKHf7UBi8Q05YFCAU"
                         >
                           <span
                             class="lBbtTb z1asCe rzyADb"
@@ -111,13 +95,10 @@ export default function SearchNavbar() {
                           <span class="FqnKTc"></span>
                         </div>
                         <div
-                          jscontroller="MC8mtf"
                           class="hpuQDe"
                           aria-label="Search by voice"
                           role="button"
                           tabindex="0"
-                          jsaction="h5M12e;rcuQ6b:npT2md"
-                          data-ved="0ahUKEwi2_e65iuzvAhUBrxoKHf7UBi8Qvs8DCAY"
                         >
                           <svg
                             class="HPVvwb"
@@ -146,104 +127,32 @@ export default function SearchNavbar() {
                       </div>
                     </div>
                   </div>
-                  <div
-                    jscontroller="tg8oTe"
-                    class="UUbT9"
-                    style={{ display: "none" }}
-                    jsname="UUbT9"
-                    jsaction="mouseout:ItzDCd;mouseleave:MWfikb;hBEIVb:nUZ9le;YMFC3:VKssTb"
-                  >
-                    <div class="RjPuVb" jsname="RjPuVb"></div>
-                    <div class="aajZCb" jsname="aajZCb">
-                      <div class="xtSCL"></div>
-                      <ul class="erkvQe" jsname="erkvQe" role="listbox"></ul>
-                      <li class="ynRric" id="ynRric" role="presentation"></li>
-                      <li
-                        data-view-type="1"
-                        class="sbct"
-                        id="sbt"
-                        role="presentation"
-                      >
-                        <div class="L3OrEb">
-                          <div class="sbic"></div>
-                          <div class="sbtc" role="option">
-                            <div class="sbl1">
-                              <span></span>
-                            </div>
-                            <div class="sbl2">
-                              <span></span>
-                            </div>
-                          </div>
-                          <div class="sbab">
-                            <div class="sbai">Remove</div>
-                          </div>
-                        </div>
-                      </li>
-                      <div jsname="VlcLAe" class="tfB0Bf">
-                        <center>
-                          <input
-                            class="gNO89b"
-                            value="Google Search"
-                            aria-label="Google Search"
-                            type="submit"
-                          />
-                          <input
-                            class="RNmpXc"
-                            value="I'm Feeling Lucky"
-                            aria-label="I'm Feeling Lucky"
-                            name="btnI"
-                            type="submit"
-                            jsaction="trigger.kWlxhc"
-                            data-ved="0ahUKEwi2_e65iuzvAhUBrxoKHf7UBi8Q19QECAg"
-                          />
-                        </center>
-                      </div>
-                    </div>
-                    <div
-                      jsname="JUypV"
-                      jscontroller="IvlUe"
-                      class="JUypV"
-                      data-async-context="async_id:duf3-46;authority:0;card_id:;entry_point:0;feature_id:;ftoe:0;header:0;is_jobs_spam_form:0;open:0;preselect_answer_index:-1;suggestions:;suggestions_subtypes:;suggestions_types:;surface:0;title:;type:46"
-                    >
-                      <div
-                        jscontroller="xz7cCd"
-                        style={{ display: "none" }}
-                        jsaction="rcuQ6b:npT2md"
-                      ></div>
-                      <div
-                        id="duf3-46"
-                        data-jiis="up"
-                        data-async-type="duffy3"
-                        data-async-context-required="type,open,feature_id,async_id,entry_point,authority,card_id,ftoe,title,header,suggestions,surface,suggestions_types,suggestions_subtypes,preselect_answer_index,is_jobs_spam_form"
-                        class="yp"
-                        data-ved="0ahUKEwi2_e65iuzvAhUBrxoKHf7UBi8Q-0EICQ"
-                      ></div>
-                      <a
-                        class="oBa0Fe wrSo4 aciXEb"
-                        href="#"
-                        id="sbfblt"
-                        data-async-trigger="duf3-46"
-                        jsaction="trigger.szjOR"
-                        data-ved="0ahUKEwi2_e65iuzvAhUBrxoKHf7UBi8Qtw8ICg"
-                      >
-                        Report inappropriate predictions
-                      </a>
-                    </div>
-                  </div>
                   <div class="FPdoLc tfB0Bf">
                     <center>
                       <input
                         class="gNO89b"
-                        value="Google Search"
-                        aria-label="Google Search"
+                        value={`${
+                          props.language ? "Google ძებნა" : "Google Search"
+                        }`}
+                        aria-label={`${
+                          props.language ? "Google ძებნა" : "Google Search"
+                        }`}
                         name="btnK"
                         type="submit"
                         data-ved="0ahUKEwi2_e65iuzvAhUBrxoKHf7UBi8Q4dUDCAs"
                       />
                       <input
                         class="RNmpXc"
-                        value="I'm Feeling Lucky"
-                        aria-label="I'm Feeling Lucky"
+                        value={`${
+                          props.language
+                            ? "იღბალს მივენდობი"
+                            : "I'm Feeling Lucky"
+                        }`}
+                        aria-label={`${
+                          props.language
+                            ? "იღბალს მივენდობი"
+                            : "I'm Feeling Lucky"
+                        }`}
                         name="btnI"
                         type="submit"
                         jsaction="trigger.kWlxhc"
@@ -270,21 +179,16 @@ export default function SearchNavbar() {
               id="gws-output-pages-elements-homepage_additional_languages__als"
             >
               <div id="SIvCob">
-                Google offered in:{" "}
-                <a href="https://www.google.com/setprefs?sig=0_DlbLD1v2dNI9D7ojtORrcuHUbUk%3D&amp;hl=ka&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwi2_e65iuzvAhUBrxoKHf7UBi8Q2ZgBCA4">
-                  ქართული
+                {props.language
+                  ? "Google ხელმისაწვდომია შემდეგ ენაზე: "
+                  : "Google offered in: "}{" "}
+                <a onClick={props.languageHandle}>
+                  {props.language ? "English" : "ქართული"}
                 </a>
               </div>
             </div>
           </div>
-          <Footer />
-        </div>
-        <div class="Fgvgjc">
-          <div class="gTMtLb fp-nh" id="lb"></div>
-          <div style={{ display: "none" }}></div>
-          <span style={{ display: "none" }}>
-            <span style={{ display: "none" }}></span>
-          </span>
+          <Footer language={props.language} />
         </div>
       </main>
       <div className="res">
