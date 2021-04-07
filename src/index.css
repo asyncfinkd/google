@@ -15,6 +15,7 @@ button {
 body {
   background: #fff;
   overflow-x: hidden;
+  font-family: sans-serif;
 }
 
 body,
@@ -214,7 +215,6 @@ a.gb_1:active {
   height: 40px;
   width: 40px;
   color: #000;
-  cursor: pointer;
   text-decoration: none;
 }
 
@@ -341,7 +341,6 @@ div.gb_0a {
 .gb_Ve button:hover svg,
 .gb_Ve button:active svg,
 .gb_D:focus,
-.gb_D:hover,
 .gb_D:active,
 .gb_D[aria-expanded="true"] {
   outline: none;
@@ -365,18 +364,12 @@ div.gb_0a {
 }
 
 .gb_wc .gb_Ve.gb_We button:hover svg,
-.gb_Ve button:hover svg,
-.gb_D:hover {
+.gb_Ve button:hover svg {
   background-color: rgba(60, 64, 67, 0.08);
 }
 
 .gb_ja .gb_D.gb_Na:hover {
   background-color: transparent;
-}
-
-.gb_D[aria-expanded="true"],
-.gb_D:hover[aria-expanded="true"] {
-  background-color: rgba(95, 99, 104, 0.24);
 }
 
 .gb_D[aria-expanded="true"] .gb_Xe,
@@ -385,8 +378,7 @@ div.gb_0a {
   opacity: 1;
 }
 
-.gb_wc .gb_Ve button:hover svg,
-.gb_wc .gb_D:hover {
+.gb_wc .gb_Ve button:hover svg {
   background-color: rgba(232, 234, 237, 0.08);
 }
 
@@ -400,11 +392,6 @@ div.gb_0a {
 .gb_wc .gb_Ve button:active svg,
 .gb_wc .gb_D:active {
   background-color: rgba(232, 234, 237, 0.12);
-}
-
-.gb_wc .gb_D[aria-expanded="true"],
-.gb_wc .gb_D:hover[aria-expanded="true"] {
-  background-color: rgba(255, 255, 255, 0.12);
 }
 
 .gb_wc .gb_D[aria-expanded="true"] .gb_Xe,
@@ -456,7 +443,6 @@ div.gb_0a {
 }
 
 .gb_C .gb_D,
-.gb_C .gb_D:hover,
 .gb_C .gb_D:focus {
   opacity: 1;
 }
@@ -1924,6 +1910,7 @@ a.gb_4.gb_nd:active {
 .LS8OJ {
   display: flex;
   flex-direction: column;
+  height: 100vh;
   align-items: center;
 }
 
@@ -2680,4 +2667,32 @@ button.EzVRq:active {
   z-index: 1001;
   position: absolute;
   top: -1000px;
+}
+
+.res {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+@media all and (max-width: 1380px) {
+  .LS8OJ {
+    height: 30vh !important;
+  }
+}
+
+@media all and (max-width: 565px) {
+  ._main {
+    display: none;
+  }
+  .res {
+    display: flex;
+    text-align: center;
+  }
+  html,
+  body {
+    min-width: 0px !important;
+  }
 }
