@@ -1,4 +1,4 @@
-# Contributing to Facebook
+# Contributing to Google
 
 We love the activism, the contribution of the people. You can taste it. Will it be:
 
@@ -18,7 +18,7 @@ Here are some suggestions on how to look or get an appointment for antique items
 1.  Make sure you place the web project on the correct branch (dev).
 2.  Upload files exactly. To discuss it.
 
-> If you need to modify environment variables for dev, you need to modify them inside `/home/facebook/.bashrc` and restart your terminal.
+> If you need to modify environment variables for dev, you need to modify them inside `/home/google/.bashrc` and restart your terminal.
 
 #### `dev`
 
@@ -37,7 +37,7 @@ Great Feature Requests tend to have:
 
 ## License
 
-By contributing to Facebook, you agree that your contributions will be licensed
+By contributing to Google, you agree that your contributions will be licensed
 under the [LICENSE file](LICENSE).
 
 :rocket: Congratulations you are already one step away from publishing your work. (Confirmation).
