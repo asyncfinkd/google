@@ -40,7 +40,7 @@ export default function Home() {
           width="300"
           height="100"
         />
-        <div className="flex w-full mt-5 hover:shadow-lg max-w-md focus-within:shadow-lg rounded-full border">
+        <div className="flex w-full mt-5 hover:shadow-lg max-w-md focus-within:shadow-lg rounded-full border border-gray-200 plr-5 ptb-3 items-center sm:max-w-xl lg:max-w-2xl">
           <svg
             focusable="false"
             className="h-5 mr-3"
