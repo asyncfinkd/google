@@ -33,7 +33,7 @@ export default function Home() {
           />
         </div>
       </header>
-      <form className="flex flex-col items-center mt-44 flex-grow w-4/5">
+      <form className="flex flex-col items-center mt-44 flex-grow">
         <Image
           src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
           width="300"
@@ -70,6 +70,17 @@ export default function Home() {
               fill="#ea4335"
             ></path>
           </svg>
+        </div>
+        <div>
+          <button
+            style={{ background: "#f8f9fa" }}
+            className="p-3 ring-gray-200 rounded-md"
+          >
+            Google Search
+          </button>
+          <button className="p-3 rounded-md" style={{ background: "#f8f9fa" }}>
+            I'm Feeling Lucky
+          </button>
         </div>
       </form>
     </>
