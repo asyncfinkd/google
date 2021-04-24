@@ -74,11 +74,14 @@ export default function Home() {
         <div>
           <button
             style={{ background: "#f8f9fa" }}
-            className="p-3 ring-gray-200 rounded-md"
+            className="p-3 rounded-md text-sm color-gray-800 focus:outline-none"
           >
             Google Search
           </button>
-          <button className="p-3 rounded-md" style={{ background: "#f8f9fa" }}>
+          <button
+            className="p-3 rounded-md text-sm color-gray-800 focus:outline-none"
+            style={{ background: "#f8f9fa" }}
+          >
             I'm Feeling Lucky
           </button>
         </div>
