@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Avatar from "../components/Avatar";
 
 export default function Home() {
   return (
@@ -18,7 +19,9 @@ export default function Home() {
         <div className="flex space-rl-4 items-center">
           <p className="hover:underline cursor-pointer">Gmail</p>
           <p className="hover:underline cursor-pointer">Images</p>
-          <Avatar />
+          <Avatar
+            url={"https://avatars.githubusercontent.com/u/80542304?v=4"}
+          />
         </div>
       </header>
     </>
