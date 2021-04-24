@@ -6,7 +6,20 @@ export default function Home() {
       <Head>
         <title>Google</title>
       </Head>
-      <div className="flex flex-column"></div>
+
+      {/* Header */}
+
+      <header className="flex w-full p-5 justify-between text-sm text-gray-700">
+        {/* Left Position */}
+        <div className="flex space-rl-4 items-center">
+          <p>About</p>
+          <p>Store</p>
+        </div>
+        <div className="flex space-rl-4 items-center">
+          <p>Gmail</p>
+          <p>Images</p>
+        </div>
+      </header>
     </>
   );
 }
