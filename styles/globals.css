@@ -9082,3 +9082,5 @@ box-shadow: var(--veu-ring-offset-shadow, 0 0 #0000), var(--veu-ring-shadow, 0 0
   .lg\:min-w-max {
     min-width: max-content !important;
   }
+
+  
