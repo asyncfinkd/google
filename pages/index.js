@@ -10,7 +10,7 @@ export default function Home() {
 
       {/* Header */}
 
-      <header className="flex w-full p-5 justify-between text-sm color-gray-700">
+      <header className="flex w-full p-3 justify-between text-sm color-gray-700">
         {/* Left Position */}
         <div className="flex space-rl-4 items-center">
           <p className="hover:underline cursor-pointer">About</p>
@@ -32,6 +32,9 @@ export default function Home() {
           />
         </div>
       </header>
+
+      <form>
+      </form>
     </>
   );
 }

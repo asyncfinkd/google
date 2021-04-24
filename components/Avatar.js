@@ -5,7 +5,7 @@ export default function Avatar({ url }) {
     <>
       <img
         loading="lazy"
-        className="h-10 rounded-full cursor-pointer duration-150 transition hover:scale-def-110"
+        className="h-7 rounded-full cursor-pointer duration-150 transition hover:scale-def-110"
         src={url}
         alt="Profile picture"
       />
