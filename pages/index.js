@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
-      <div>
+      <div className="flex flex-col items-center justify-center h-screen">
         <Head>
           <title>Google</title>
         </Head>
@@ -35,7 +35,7 @@ export default function Home() {
             />
           </div>
         </header>
-        <form className="flex flex-col items-center mt-44 flex-grow">
+        <form className="flex flex-col items-center w-4-5 mt-44 flex-grow">
           <Image
             src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
             width="300"
