@@ -71,7 +71,7 @@ export default function Home() {
             ></path>
           </svg>
         </div>
-        <div className="flex flex-col w-1-2 space-tb-2 justify-center mt-8 sm:space-tb-0">
+        <div className="flex flex-col w-1-2 space-tb-2 justify-center mt-8 sm:space-tb-0 sm:space-rl-4 sm:flex-row">
           <button
             style={{ background: "#f8f9fa" }}
             className="p-3 hover:google-btn rounded-md text-sm color-gray-800 focus:outline-none"

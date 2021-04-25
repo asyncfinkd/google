@@ -8578,6 +8578,22 @@ box-shadow: var(--veu-ring-offset-shadow, 0 0 #0000), var(--veu-ring-shadow, 0 0
     margin-bottom: calc(0px * var(--veu-space-tb-reverse)) !important;
   }
 
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+
   .sm\:space-rl-0 > :not([hidden]) ~ :not([hidden]) {
     --veu-space-rl-reverse: 0 !important;
     margin-right: calc(0px * var(--veu-space-rl-reverse)) !important;
