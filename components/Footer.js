@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="plr-8 ptb-3">
           <p>Georgia</p>
         </div>
-        <div>
+        <div className="grid grid-columns-1">
           <div>Carbon neutral since 2007</div>
         </div>
       </footer>
