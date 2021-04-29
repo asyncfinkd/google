@@ -7,10 +7,7 @@ export default function Footer() {
         <div className="plr-8 ptb-3">
           <p>Georgia</p>
         </div>
-        <div className="grid grid-columns-1">
-          <div className="flex justify-center items-center md:col-span-2 lg:col-span-1">
-            Carbon neutral since 2007
-          </div>
+        <div className="grid grid-columns-1 md:grid-columns-2 lg:grid-columns-3 gap-y-4 ptb-3 plr-8 grid-flow-row-dense">
           <div
             className="flex justify-center space-rl-8 md:justify-self-start"
             style={{ whiteSpace: "nowrap" }}
