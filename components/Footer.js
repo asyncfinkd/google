@@ -4,9 +4,9 @@ export default function Footer() {
   return (
     <>
       <footer>
-          <div>
-              <p>Georgia</p>
-          </div>
+        <div className="plr-8 ptb-3">
+          <p>Georgia</p>
+        </div>
       </footer>
     </>
   );
